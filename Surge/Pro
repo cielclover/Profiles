@@ -9,9 +9,6 @@ ipv6 = false
 [Proxy]
 # 节点名称 = 协议，服务器地址，服务器端口，encrypt-method=加密协议，password=密码，obfs=混淆类型（http/tls），obfs-host=混淆地址
 # 3 和 4 的 obfs 仅为示例，需服务端支持，如果不懂就别加
-🇼🇸 TW = snell, 34.80.108.31, 12212, psk=sTa9baSQtGt4ODEC, obfs=tls
-🇺🇸 NJ = snell, 8.9.6.55, 18304, psk=mmZdLXCWMP9V4KPr, obfs=tls
-🇺🇸 GR = snell, 45.77.99.89, 19891, psk=ONSg1KnZLQqw7y9N, obfs=tls
 4 = custom, 1.2.3.4, 443, chacha20-ietf-poly1305, password, https://raw.githubusercontent.com/ConnersHua/SSEncrypt/master/SSEncrypt.module, obfs=http, obfs-host=bing.com
 
 [Proxy Group]
